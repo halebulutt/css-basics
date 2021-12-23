@@ -1,0 +1,60 @@
+table{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:rgb(8, 8, 8);
+    text-align:center;
+    vertical-align: center;
+    border-collapse: collapse;
+    border-width: 5px;
+    box-shadow: 5px 5px 5px indigo;
+    background-image: url(../img/bulut.jfif);
+    
+}
+th{
+    font-family:verdana,times;
+    font-size:18px;
+    color:white;
+    background-color: gray;
+    
+}
+th,td{
+    padding:8px 30px;
+    border-width: 2px;
+    box-shadow: 5px 5px 5px indigo;
+    
+}
+
+.kutu{
+    width:300px;
+    height:100px;
+    border-style:solid;
+    background-color:rgb(175, 119, 214);
+    overflow: auto;
+    box-shadow: 2px 2px 2px indigo;
+}
+.kutu1{
+    width:300px;
+    height:100px;
+    border-style:solid;
+    background-color:rgb(175, 119, 214) ;
+    overflow: scroll;
+    box-shadow: 2px 2px 2px indigo;
+}
+.kutu2{
+    width:300px;
+    height:100px;
+    border-style:solid;
+    background-color:rgb(175, 119, 214);
+    overflow: auto;
+    box-shadow: 2px 2px 2px indigo;
+
+}
+.kutu3{
+    width:300px;
+    height:100px;
+    border-style:solid;
+    background-color:rgb(175, 119, 214);
+    overflow: auto;
+    box-shadow: 2px 2px 2px indigo;
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element ve Sınıflar</title>
+    <style>
+        p::first-letter{
+            font-size:6rem;
+        }
+        p::first-line{
+            background-color: hotpink;
+        }
+        p::selection{
+            background-color:teal;
+            color:violet;
+        }
+        .box{
+            width:100px;
+            height:100px;
+            background-color: tomato;
+            
+        }
+        .box::before{
+            display: block;
+            width:20px;
+            height: 20px;
+            background-color:yellowgreen;
+            content:''
+
+        }
+        .box::after{
+            display: block;
+            width:20px;
+            height:20px;
+            background-color: rgb(50, 86, 205);
+            content:''
+
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="box">
+        HALE
+
+    </div>
+    <!--Elementler :: ile sınıflar : ile belirtilir. -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti voluptas odio saepe assumenda voluptate. Quae in quas facilis nulla ex veritatis animi, reprehenderit repudiandae error alias odio odit adipisci ullam aperiam libero corrupti amet voluptas? Dolorum vel odio quibusdam, repudiandae vero facilis minima dignissimos facere corporis asperiores recusandae illum ipsa!</p>
+
+</body>
+</html>

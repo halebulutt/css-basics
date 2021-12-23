@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Custom Properties</title>
+    <style>
+
+        :root{
+            --ana-renk:rgb(11, 72, 112)
+            ;
+            --my-border:3px solid purple;
+        }
+        h2{
+            background-color: rgb(150, 73, 223);
+            color:var(--ana-renk);
+            padding:.5rem;
+            border:var(--my-border);
+
+        }
+
+        p{
+            --ana-renk:orange;
+            color:var(--ana-renk);
+            border:var(--my-border);
+        }
+        span{
+            color:var(--ana-renk);
+        }
+    </style>
+</head>
+<body>
+    <h2>Başlık</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <span>Lorem ipsum dolor sit amet.</span>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto cupiditate dignissimos nesciunt at recusandae nulla, quod ipsam error veritatis!</p>
+    <button>Tıkla</button>
+
+    <script>
+        const buton= document.querySelector('button').addEventListener('click',()=>{})
+        document.documentElement.style.setProperty('--ana-renk','pink');
+    </script>
+
+
+</body>
+</html>
