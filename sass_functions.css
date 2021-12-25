@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*$bg-color: darken(#0ac, 10); rengin %10 daha koyusunu verir.*/
+/*$accent-color: complement($bg-color); karşıt rengini gösterir. */
+.div {
+  color: white;
+  height: 300px;
+  width: 600px;
+  background-color: gray;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=sass_functions.css.map */
